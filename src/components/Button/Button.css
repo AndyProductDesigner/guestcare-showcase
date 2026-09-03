@@ -1,0 +1,63 @@
+.button {
+  min-height: var(--control-height-md);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+
+  padding: 0 var(--space-4);
+
+  border: 0;
+  border-radius: var(--radius-md);
+
+  font: inherit;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-regular);
+  line-height: 16px;
+
+  cursor: pointer;
+}
+
+.button-primary {
+  background: var(--color-primary);
+  color: var(--text-inverse);
+}
+
+.button-secondary {
+  border: 1px solid var(--border-subtle);
+
+  background: var(--surface-default);
+  color: var(--text-primary);
+}
+
+.button-text {
+  padding-inline: var(--space-2);
+
+  background: transparent;
+  color: var(--text-primary);
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.button-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
