@@ -1,0 +1,72 @@
+:root {
+  /* Brand */
+  --color-primary: #2c2c2c;
+
+  /* Focus */
+  --focus-ring: #7560ff;
+
+  /* Surfaces */
+  --surface-page: #ffffff;
+  --surface-default: #ffffff;
+  --surface-subtle: #f9f9f9;
+
+  /* Text / On-surface */
+  --text-primary: #2c2c2c;
+  --text-secondary: #5f5f5f;
+  --text-muted: #7a7a7a;
+  --text-placeholder: #b3b3b3;
+  --text-inverse: #ffffff;
+
+  /* Borders */
+  --border-subtle: #e4e4e4;
+
+  /* Shadows */
+  --shadow-sm: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.16);
+
+  /* Typography */
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-numeric: 'IBM Plex Mono', monospace;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 36px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-13: 56px;
+  --space-14: 64px;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* Control sizes */
+  --control-height-sm: 40px;
+  --control-height-md: 48px;
+
+  /* Layout */
+  --app-max-width: 360px;
+  --page-padding: 16px;
+}
